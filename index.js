@@ -1,5 +1,6 @@
 const fs = require('fs');
 const http = require('http');
+const url = require('url')
 
 ///////////////////////////////////////////////////////////
 // File Reading and Writing
@@ -33,6 +34,7 @@ const http = require('http');
 ///// Server
 
 const server = http.createServer((req, res) => {
+    console.log(req.url);
     res.end('Hello from ur own web server');
 });
 
