@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/sahil-codess/1-node-farm#readme",
   "dependencies": {
+    "express": "^4.18.2",
     "nodemon": "^2.0.20",
     "slugify": "^1.6.5"
   }
